@@ -40,16 +40,15 @@ body {
   flex-shrink: 0;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-}
-
 .content-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
 
 .content-header .header {
